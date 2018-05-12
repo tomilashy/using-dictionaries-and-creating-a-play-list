@@ -63,3 +63,11 @@ bakery_stock.popitem(); #removes last item
 
 new_dict.update(bakery_stock); #adds all of bakery_stock to new_dict
 
+
+detail={key:value*2 for key,value in  bakery_stock.items()};
+
+str1 = "ABC";
+str2="123";
+
+str_dict={str1[i]:str2[i] for i in range (0,len(str1))}
+
